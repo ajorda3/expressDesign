@@ -65,7 +65,7 @@
                             <li><a class="scroll-link" href="#pricing">Price</a></li>
                             <li><a class="scroll-link" href="#about-us">About</a></li>
                             <li><a class="scroll-link" href="#testimonials">Testimonials</a></li>
-                            <li><a class="btn btn-link-2" href="#">Button</a></li>
+                            <li><a class="btn btn-link-2" href="/auth/logout">Logout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7 text">
+                        <div class="col-sm-4 text">
                             <h1 class="wow fadeInLeftBig">Learn to Code in <strong>1 Month</strong></h1>
                             <div class="description wow fadeInLeftBig">
                                 <p>
@@ -88,16 +88,64 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-5 form-box wow fadeInUp">
+                        <div class="col-sm-8 form-box wow fadeInUp">
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#register_tab" aria-controls="register_tab" role="tab" data-toggle="tab">Register</a></li>
-                                <li role="presentation"><a href="#login_tab" aria-controls="login_tab" role="tab" data-toggle="tab">Login</a></li>
+                                <li role="presentation" class="active"><a href="#register_tab" aria-controls="register_tab" role="tab" data-toggle="tab">Naročilnica</a></li>
+                                <li role="presentation"><a href="#login_tab" aria-controls="login_tab" role="tab" data-toggle="tab">Zgodovina naročil</a></li>
                             </ul>
 
 
                             <div class="tab-content">
+
+                            <!-- ORDER DESIGN --> 
                                 <div role="tabpanel" class="tab-pane active" id="register_tab">
                                         <div class="form-top">
+                                            <div class="form-top-left">
+                                               <!-- <h3>NAROČILNICA</h3> -->
+                                                <p>V spodnja okenca vpišite podatke in besedilo, ki jih želite uporabiti v naročeni oblikovani strani.</p>
+                                            </div>
+                                            <div class="form-top-right">
+                                                <span aria-hidden="true" class="typcn typcn-pencil"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-bottom">
+                                            <form role="form" action="" method="post">
+                                                <div class="form-group"><!--  sr-only -->
+                                                    <label class="sr-only" for="form-order-goal">Vpišite cilj vaše tiskovine!</label>
+                                                    <textarea name="form-order-goal" placeholder="Vpišite cilj vaše tiskovine!" class="form-control" id="form-order-goal"></textarea>    
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="form-order-group">Vpišite ciljno skupino, komu je oblikovana stran namenjena!</label>
+                                                    <textarea name="form-order-group" placeholder="Vpišite ciljno skupino, komu je oblikovana stran namenjena!" class="form-control" id="form-order-group"></textarea>
+                                                 </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="form-order-format">Vaš željen format tiskovine? (izbiro lahko prepustite nam)</label>
+                                                    <textarea name="form-order-format" placeholder="Vaš željen format tiskovine? (izbiro lahko prepustite nam)" class="form-control" id="form-order-format"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="form-order-title">Vpišite NASLOV tiskovine!</label>
+                                                    <textarea name="form-order-title" placeholder="Vpišite NASLOV tiskovine!" class="form-control" id="form-order-title"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="form-order-intro">Vpišite UVODNO besedilo tiskovine!</label>
+                                                    <textarea name="form-order-intro" placeholder="Vpišite UVODNO besedilo tiskovine!" class="form-control" id="form-order-intro"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="form-order-main-text">Vpišite GLAVNO besedilo tiskovine!</label>
+                                                    <textarea name="form-order-main-text" placeholder="Vpišite GLAVNO besedilo tiskovine!" class="form-control" id="form-order-main-text"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="form-order-comment">Bi želeli kaj dodati, predlagati ali opomniti?</label>
+                                                    <textarea name="form-order-comment" placeholder="Bi želeli kaj dodati, predlagati ali opomniti?" class="form-control" id="form-order-comment"></textarea>
+                                                </div>
+                                                <button type="submit" class="btn">Pošljite naročilo</button>
+                                            </form>
+                                        </div>
+                                </div>
+
+                                <!-- DESIGN HISTORY --> 
+                                <div role="tabpanel" class="tab-pane" id="login_tab">
+                                       <div class="form-top">
                                             <div class="form-top-left">
                                                 <h3>Sign up now</h3>
                                                 <p>Fill in the form below to get instant access:</p>
@@ -118,7 +166,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="sr-only" for="form-email">Email</label>
-                                                    <input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+                                                    <input type="email" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="sr-only" for="form-about-yourself">About yourself</label>
@@ -130,38 +178,6 @@
                                                     <a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> - 
                                                     <a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
                                                 </div>
-                                            </form>
-                                        </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="login_tab">
-                                       <div class="form-top">
-                                            <div class="form-top-left">
-                                                <h3>Login</h3>
-                                                <p>Prijavi se v sistem</p>
-                                            </div>
-                                            <div class="form-top-right">
-                                                <span aria-hidden="true" class="typcn typcn-pencil"></span>
-                                            </div>
-                                        </div>
-                                        <div class="form-bottom">
-                                            <form role="form" action="/auth/login" method="post">
-                                                {!! csrf_field() !!}
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-email">Email</label>
-                                                    <input type="email" name="email" placeholder="Email ..." class="form-email form-control" id="form-email" value="{{ old('email') }}">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-password">Password</label>
-                                                    <input type="password" name="password" placeholder="Password ..." class="form-email form-control" id="form-password">
-                                                </div>
-                                                <!--
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-about-yourself">Password</label>
-                                                    <input type="password" name="password" placeholder="Password ..." class="form-email form-control" id="form-password">
-                                                </div>
-                                                -->
-                                                <button type="submit" class="btn">Login!</button>
-
                                             </form>
                                         </div>
                                 </div>
