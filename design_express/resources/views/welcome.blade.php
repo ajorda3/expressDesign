@@ -89,8 +89,8 @@
 
                         <div class="col-sm-5 form-box wow fadeInUp">
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#register_tab" aria-controls="register_tab" role="tab" data-toggle="tab">Register</a></li>
-                                <li role="presentation"><a href="#login_tab" aria-controls="login_tab" role="tab" data-toggle="tab">Login</a></li>
+                                <li role="presentation" class="active"><a href="#register_tab" aria-controls="register_tab" role="tab" data-toggle="tab">Registracija</a></li>
+                                <li role="presentation"><a href="#login_tab" aria-controls="login_tab" role="tab" data-toggle="tab">Prijava</a></li>
                             </ul>
 
 
@@ -99,8 +99,8 @@
                                 <div role="tabpanel" class="tab-pane active" id="register_tab">
                                         <div class="form-top">
                                             <div class="form-top-left">
-                                                <h3>Sign up now</h3>
-                                                <p>Fill in the form below to get instant access:</p>
+                                                <h3>Registracija</h3>
+                                                <p>Registriraj se in oddaj svojo naročilnico!</p>
                                             </div>
                                             <div class="form-top-right">
                                                 <span aria-hidden="true" class="typcn typcn-pencil"></span>
@@ -114,7 +114,7 @@
                                                     <input type="text" name="name" placeholder="Ime ..." class="form-first-name form-control" id="form-first-name" value="{{ old('name') }}">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="sr-only" for="form-email">Email</label>
+                                                    <label class="sr-only" for="form-email">E-naslov</label>
                                                     <input type="text" name="email" placeholder="Email ..." class="form-email form-control" id="form-email" value="{{ old('email') }}">
                                                 </div>
                                                 <div class="form-group">
@@ -134,8 +134,8 @@
                                 <div role="tabpanel" class="tab-pane" id="login_tab">
                                        <div class="form-top">
                                             <div class="form-top-left">
-                                                <h3>Login</h3>
-                                                <p>Prijavi se v sistem</p>
+                                                 <h3>Prijava</h3> 
+                                                 <p>Prijavi se v sistem ...</p>
                                             </div>
                                             <div class="form-top-right">
                                                 <span aria-hidden="true" class="typcn typcn-pencil"></span>
@@ -145,11 +145,11 @@
                                             <form role="form" action="/auth/login" method="post">
                                                 {!! csrf_field() !!}
                                                 <div class="form-group">
-                                                    <label class="sr-only" for="form-email">Email</label>
+                                                    <label class="sr-only" for="form-email">E-naslov</label>
                                                     <input type="email" name="email" placeholder="Email ..." class="form-email form-control" id="form-email" value="{{ old('email') }}">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="sr-only" for="form-password">Password</label>
+                                                    <label class="sr-only" for="form-password">Geslo</label>
                                                     <input type="password" name="password" placeholder="Password ..." class="form-email form-control" id="form-password">
                                                 </div>
                                                 <!--
@@ -158,7 +158,7 @@
                                                     <input type="password" name="password" placeholder="Password ..." class="form-email form-control" id="form-password">
                                                 </div>
                                                 -->
-                                                <button type="submit" class="btn">Login!</button>
+                                                <button type="submit" class="btn">Prijava</button>
 
                                             </form>
                                         </div>

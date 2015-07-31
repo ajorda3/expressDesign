@@ -75,12 +75,20 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4 text">
-                            <h1 class="wow fadeInLeftBig">Learn to Code in <strong>1 Month</strong></h1>
+                            <h1 class="wow fadeInLeftBig">Pozdravljeni <strong>{{ Auth::user()->name }}</strong></h1>
                             <div class="description wow fadeInLeftBig">
-                                <p>
-                                    We have been working very hard to create the new version of our course. 
-                                    It comes with a lot of new features, easy to follow videos and images. Check it out now!
-                                </p>
+                                <div class="row">
+                                    <div class="col-lg-6">Podatki za obveščanje: </div>
+                                    <div class="col-lg-6"><strong class="pull-left-md">{{ Auth::user()->email }} </strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">Izbrani mesečni paket: </div>
+                                    <div class="col-lg-6"><strong class="pull-left-md"> M </strong></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">Razpoložjiva naročila: </div>
+                                    <div class="col-lg-4"><strong class="pull-left-md">2 </strong></div>
+                                </div>
                             </div>
                             <div class="top-big-link wow fadeInUp">
                                 <a class="btn btn-link-1 scroll-link" href="#pricing">Our prices</a>
@@ -110,6 +118,32 @@
                                         </div>
                                         <div class="form-bottom">
                                             <form role="form" action="" method="post">
+                                                <div class="form-group">
+                                                    <div class="radio">
+                                                      <label>
+                                                        <input type="radio" id="form-order-type-letak" name="orderTypeRadio" value="form-order-type-letak" checked>
+                                                        Letak
+                                                      </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label>
+                                                        <input type="radio" id="form-order-type-plakat" name="orderTypeRadio" value="form-order-type-plakat">
+                                                        Plakat
+                                                      </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label>
+                                                        <input type="radio" id="form-order-type-mail" name="orderTypeRadio" value="form-order-type-mail">
+                                                        E-mail ponudba
+                                                      </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label>
+                                                        <input type="radio" id="form-order-type-drugo" name="orderTypeRadio" value="form-order-type-drugo">
+                                                        Drugo
+                                                      </label>
+                                                    </div>
+                                                </div>
                                                 <div class="form-group"><!--  sr-only -->
                                                     <label class="sr-only" for="form-order-goal">Vpišite cilj vaše tiskovine!</label>
                                                     <textarea name="form-order-goal" placeholder="Vpišite cilj vaše tiskovine!" class="form-control" id="form-order-goal"></textarea>    

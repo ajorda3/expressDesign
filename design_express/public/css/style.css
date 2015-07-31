@@ -715,3 +715,9 @@ footer {
 	margin-top: 25px;
 }
 
+/* BOOTSTRAP OVERRIDES */
+@media (min-width: 1200px) {
+ .pull-left-md {
+  float: left;
+}
+}
