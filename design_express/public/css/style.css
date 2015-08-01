@@ -250,8 +250,9 @@ ul.navbar-nav {
 }
 
 .navbar-brand {
-	width: 97px;
-	background: url(../img/logo.png) left center no-repeat;
+	width: 260px;
+	height:280px;
+	background: url(../img/logoExpress.png) no-repeat;
 	text-indent: -99999px;
 }
 
@@ -259,7 +260,12 @@ ul.navbar-nav {
 /***** Top content *****/
 
 .inner-bg {
-    padding: 120px 0 170px 0;
+    /*padding: 120px 0 170px 0;*/
+    padding: 0 0 170px 0;
+}
+
+.top-content {
+	background-image: url("/img/backgrounds/1.jpg");
 }
 
 .top-content .text {
@@ -327,6 +333,10 @@ ul.navbar-nav {
   background-color: #18BC9C;
   background-color: #018389;
   color: white;
+}
+
+.backstretch {
+	z-index: 2;
 }
 
 /***** Features *****/
@@ -483,6 +493,10 @@ ul.navbar-nav {
 	padding-bottom: 30px;
 }
 
+.pricing-container {
+	border-top: 1px solid #ddd;
+}
+
 .pricing-box {
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -597,6 +611,7 @@ ul.navbar-nav {
 	position: relative;
 	width: 160px;
 	margin: 0 auto;
+	min-height: 425px;
 }
 
 .about-us-box .about-us-photo img {

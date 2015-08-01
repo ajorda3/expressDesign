@@ -28,7 +28,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="/ico/favicon.png">
+    <link rel="shortcut icon" href="/ico/titleIcon.jpg">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
@@ -55,16 +55,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">Marco - Bootstrap Landing Page</a>
+                        <a class="navbar-brand hidden-sm hidden-xs" href="index.html"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="top-navbar-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="scroll-link" href="#features">Features</a></li>
-                            <li><a class="scroll-link" href="#how-it-works">How it works</a></li>
-                            <li><a class="scroll-link" href="#pricing">Price</a></li>
-                            <li><a class="scroll-link" href="#about-us">About</a></li>
-                            <li><a class="scroll-link" href="#testimonials">Testimonials</a></li>
+                            <li><a class="scroll-link" href="#features">Zakaj mi</a></li>
+                            <!--<li><a class="scroll-link" href="#how-it-works">How it works</a></li>-->
+                            <li><a class="scroll-link" href="#pricing">Cenik</a></li>
+                            <li><a class="scroll-link" href="#about-us">Primeri</a></li>
+                            <li><a class="scroll-link" href="#testimonials">O nas</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,16 +74,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-7 text">
-                            <h1 class="wow fadeInLeftBig">Learn to Code in <strong>1 Month</strong></h1>
+                            <h1 class="wow fadeInLeftBig">Design <strong>Express</strong></h1>
                             <div class="description wow fadeInLeftBig">
-                                <p>
-                                    We have been working very hard to create the new version of our course. 
-                                    It comes with a lot of new features, easy to follow videos and images. Check it out now!
-                                </p>
+                                <p>Smo edini, ki lahko nudimo kvalitetno oblikovanje za <strong>skromen</strong> mesečni denat</p>
+                                <p>Denar, ki ste ga do sedaj investirali za oblikovanje, lahko sedaj porabite <strong>pametneje</strong>.</p>
+                                <p>Dovolite, da tečemo <strong>vzporedno</strong> z vami!</p>
                             </div>
                             <div class="top-big-link wow fadeInUp">
-                                <a class="btn btn-link-1 scroll-link" href="#pricing">Our prices</a>
-                                <a class="btn btn-link-2 scroll-link" href="#features">Learn more</a>
+                                <a class="btn btn-link-1 scroll-link" href="#pricing">Cenik</a>
+                                <a class="btn btn-link-2 scroll-link" href="#features">Izvedi več</a>
                             </div>
                         </div>
 
@@ -176,7 +175,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 features section-description wow fadeIn">
-                        <h2>What's included</h2>
+                        <h2>Zakaj ravno mi?</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                     </div>
                 </div>
@@ -185,31 +184,35 @@
                         <div class="features-box-icon">
                             <span aria-hidden="true" class="typcn typcn-eye-outline"></span>
                         </div>
-                        <h3>Easy To Use</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        <h3>Vizija</h3>
+                        <p>Na razpoloago v kriznih trenutki (rešitve čez NOČ)</p>
                     </div>
                     <div class="col-sm-4 features-box wow fadeInDown">
                         <div class="features-box-icon">
                             <span aria-hidden="true" class="typcn typcn-thumbs-ok"></span>
                         </div>
-                        <h3>Responsive Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        <h3>Poslanstvo</h3>
+                        <p>Zaupanje strank, kakovost, strokovnost, zmožnost izhajanja iz že obstoječe
+                        celostne podobe, re-design</p>
                     </div>
                     <div class="col-sm-4 features-box features-box-gray wow fadeInUp">
                         <div class="features-box-icon">
                             <span aria-hidden="true" class="typcn typcn-cog-outline"></span>
                         </div>
-                        <h3>Bootstrap Engine</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        <h3>Odzivnost</h3>
+                         <p>Naše storite vam nudijo zanesljivost, lojalnost in hitro odzivnost po designu.</p>
                     </div>
                 </div>
+                <!--
                 <div class="row">
                     <div class="col-sm-4 features-box wow fadeInUp">
                         <div class="features-box-icon">
                             <span aria-hidden="true" class="typcn typcn-video-outline"></span>
                         </div>
-                        <h3>Lots Of Videos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        <h3>Profesionalnost</h3>
+                        <p>Stranka ima v naši bazi shranjene značilnosti njene celostne podobe podjetjaljene barve in ostale značilnosti)</p>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                     </div>
                     <div class="col-sm-4 features-box features-box-gray wow fadeInDown">
                         <div class="features-box-icon">
@@ -226,9 +229,10 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                     </div>
                 </div>
+                -->
                 <div class="row">
                     <div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
+                        <a class="btn btn-link-1 scroll-link" href="#top-content">Naroči sedaj</a>
                     </div>
                 </div>
             </div>
@@ -239,7 +243,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 more-features section-description wow fadeIn">
-                        <h2>More features</h2>
+                        <h2>KAKO LAHKO ZAGOTOVIMO HITER IN PROFESIONALEN DESIGN?</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                     </div>
                 </div>
@@ -252,20 +256,28 @@
                             <div class="more-features-box-text-icon">
                                 <span aria-hidden="true" class="typcn typcn-attachment"></span>
                             </div>
-                            <h3>Ut wisi enim ad minim</h3>
+                            <h3>1. Baza podatkov</h3>
                             <div class="more-features-box-text-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                                Ut wisi enim ad minim veniam, quis nostrud.
+                               Stranka ima v naši bazi shranjene značilnosti njene celostne podobe podjetja
+                                (logotipi, fonti, dovoljene barve in ostale značilnosti)
                             </div>
                         </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon">
                                 <span aria-hidden="true" class="typcn typcn-user"></span>
                             </div>
-                            <h3>Quis nostrud exerci tat</h3>
+                            <h3>2. Naročilo prek spleta</h3>
                             <div class="more-features-box-text-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                                Ut wisi enim ad minim veniam, quis nostrud.
+                                Preko spleta (računalnik ali pametni telefon) stranka izpolni naročilnico, priloži vsa besedila in željene slike, opiše vse značilnosti in oblike ki jih želi uporabiti!
+                            </div>
+                        </div>
+                        <div class="more-features-box-text">
+                            <div class="more-features-box-text-icon">
+                                <span aria-hidden="true" class="typcn typcn-user"></span>
+                            </div>
+                            <h3>3. Komunikacija</h3>
+                            <div class="more-features-box-text-description">
+                                V 24h urah s stranko skomuniciramo in ji v najkrajšem možnem času pošljemo design.
                             </div>
                         </div>
                     </div>
@@ -278,11 +290,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 always-beautiful section-description wow fadeIn">
-                        <h2>Always beautiful</h2>
+                        <h2>Kaj omogočamo z našo storitvijo?</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                     </div>
                 </div>
                 <div class="row">
+                    
+                    <!--
                     <div class="col-sm-7 always-beautiful-box wow fadeInLeft">
                         <div class="always-beautiful-box-text always-beautiful-box-text-left">
                             <h3>Ut wisi enim ad minim</h3>
@@ -298,15 +312,104 @@
                             </p>
                         </div>
                     </div>
+                    -->
+                    <div class="col-sm-7 always-beautiful-box wow fadeInLeft">
+                        <div class="always-beautiful-box-text always-beautiful-box-text-left">
+                            <p class="medium-paragraph">
+                                <ul>
+                                    <li>24ur/dan Grafično oblikovanje, mesečni najem oblikovalca</li>
+                                    <li>Oblikovanje tiskovin za manjša in večja podjetja v 24 urah</li>
+                                    <li>Mesečno najemanje profesionalnega oblikovalca za majhen denar
+                                        s prilagojenim paketom po strankinih željah oz. potrebi. </li>
+                                </ul>
+                            </p>                            
+                        </div>
+                    </div>
+
                     <div class="col-sm-5 always-beautiful-box wow fadeInUp">
-                        <img src="/img/devices/pc2.png" alt="">
+                        <!-- <img src="/img/devices/pc2.png" alt=""> -->
+                        <img src="/img/devices/storitev_img.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
         
+        <!-- Ključne koristi za stranko -->
+        <div class="more-features-container section-container section-container-gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 more-features section-description wow fadeIn">
+                        <h2>Ključne koristi za stranko!</h2>
+                        <div class="divider-1 wow fadeInUp"><span></span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5 more-features-box wow fadeInLeft">
+                        <img src="/img/devices/pc.png" alt="">
+                    </div>
+                    <div class="col-sm-7 more-features-box wow fadeInUp">
+                        <div class="more-features-box-text">
+                            <div class="more-features-box-text-icon">
+                                <span aria-hidden="true" class="typcn typcn-attachment"></span>
+                            </div>
+                            <h3>Ugoden</h3>
+                            <div class="more-features-box-text-description">
+                               Ugoden po-meri mesečni paket omejen s količino mesečnega oblikovanja, stranka ga izbere predčasno, po potrebi.
+                            </div>
+                        </div>
+                        <div class="more-features-box-text">
+                            <div class="more-features-box-text-icon">
+                                <span aria-hidden="true" class="typcn typcn-user"></span>
+                            </div>
+                            <h3>Brez zadržkov</h3>
+                            <div class="more-features-box-text-description">
+                                Stranka si sedaj lahko brez zadržkov privošči profesionalno oblikovanje svoje ponudbe kljub slabemu finančnemu trgu.   
+                            </div>
+                        </div>
+                        <div class="more-features-box-text">
+                            <div class="more-features-box-text-icon">
+                                <span aria-hidden="true" class="typcn typcn-user"></span>
+                            </div>
+                            <h3>Lasten oblikovalec</h3>
+                            <div class="more-features-box-text-description">
+                                Stranka s paketom dobi svojega oblikovalca, ki ji stoji ob strani celoten in vsak mesec v letu.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Always beautiful -->
+        <div class="always-beautiful-container section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 always-beautiful section-description wow fadeIn">
+                        <h2>Dodatne storitve</h2>
+                        <div class="divider-1 wow fadeInUp"><span></span></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-7 always-beautiful-box wow fadeInLeft">
+                        <div class="always-beautiful-box-text always-beautiful-box-text-left">
+                           
+                            <p class="medium-paragraph">
+                               Ker vemo, da v prvem mesecu še niste prepričani, kateri paket bi vam ustrezal, vam spremembo paketa v prvem mesecu podarimo!
+                               <strong>Cena spremembe paketa pa je v bodoče 20€!</strong> <small>(z že v ključenim ddvjem)</small>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-5 always-beautiful-box wow fadeInUp">
+                        <!-- <img src="/img/devices/pc2.png" alt=""> -->
+                        <img src="/img/devices/storitev_img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- How it works -->
-        <div class="how-it-works-container section-container section-container-image-bg">
+      <!--  <div class="how-it-works-container section-container section-container-image-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 how-it-works section-description wow fadeIn">
@@ -357,76 +460,94 @@
                 </div>
             </div>
         </div>
-
+        -->
         <!-- Pricing -->
         <div class="pricing-container section-container">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 pricing section-description wow fadeIn">
-                        <h2>Pricing</h2>
+                        <h2>CENA in VELIKOST paketov</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 pricing-box wow fadeInUp">
+                    <div class="col-sm-3 pricing-box wow fadeInUp">
                         <div class="pricing-box-inner">
-                            <div class="pricing-box-price"><span>$ </span><strong>12</strong><span> / month</span></div>
-                            <h3>Basic</h3>
-                            <h4>Freelancer</h4>
+                            <div class="pricing-box-price"><span>€ </span><strong>29</strong><!-- <span> / month</span> --></div>
+                            <!-- <h3>S paket</h3> -->
+                            <h4><strong>S</strong> paket</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>1000 video lessons</li>
-                                    <li>Normal speed</li>
-                                    <li>500 solved exercises</li>
-                                    <li>300MB to save your code</li>
-                                    <li>750 hours of support</li>
+                                    <li>1 oblikovana stran </li>
+                                    <li>Letak, Email-ponudba, plakat</li>
+                                    <li>velikost do A2</li>
                                 </ul>
                             </div>
                             <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up</a>
+                                <a class="btn btn-link-1 scroll-link" href="#top-content">Naroči sedaj</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
+                    <div class="col-sm-3 pricing-box pricing-box-best wow fadeInDown">
                         <div class="pricing-box-inner">
                             <div class="pricing-box-price">
-                                <span>$ </span><strong>35</strong><span> / month</span>
-                                <div class="pricing-box-icon">
+                                <span>€ </span><strong>58</strong>
+                               <!-- <div class="pricing-box-icon">
                                     <span aria-hidden="true" class="typcn typcn-star"></span>
                                 </div>
+                                -->
                             </div>
-                            <h3>Ultimate</h3>
-                            <h4>Best value</h4>
+                            
+                            <h4><strong>M</strong> paket</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>3000 video lessons</li>
-                                    <li>2x speed</li>
-                                    <li>2000 solved exercises</li>
-                                    <li>500MB to save your code</li>
-                                    <li>900 hours of support</li>
+                                    <li>2 oblikovani strani </li>
+                                    <li>Letak, Email-ponudba, plakat</li>
+                                    <li>velikost do A2</li>
                                 </ul>
                             </div>
                             <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up</a>
+                                <a class="btn btn-link-1 scroll-link" href="#top-content">Naroči sedaj</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 pricing-box wow fadeInUp">
+                    <div class="col-sm-3 pricing-box wow fadeInUp">
                         <div class="pricing-box-inner">
-                            <div class="pricing-box-price"><span>$ </span><strong>75</strong><span> / month</span></div>
-                            <h3>Platinum</h3>
-                            <h4>Big company</h4>
+                            <div class="pricing-box-price"><span>€ </span><strong>78</strong><span> (- 10%)</span></div>
+                            
+                             <h4><strong>L</strong> paket</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>5000 video lessons</li>
-                                    <li>4x speed</li>
-                                    <li>4000 solved exercises</li>
-                                    <li>900MB to save your code</li>
-                                    <li>Unlimited hours of support</li>
+                                    <li>3 oblikovane strani </li>
+                                    <li>Letak, Email-ponudba, plakat</li>
+                                    <li>velikost do A2</li>
                                 </ul>
                             </div>
                             <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up</a>
+                                <a class="btn btn-link-1 scroll-link" href="#top-content">Naroči sedaj</a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-3 pricing-box pricing-box-best wow fadeInDown">
+                        <div class="pricing-box-inner">
+                            <div class="pricing-box-price">
+                               <span>€ </span><strong>99</strong><span> (- 15%)</span>
+                               <!-- <div class="pricing-box-icon">
+                                    <span aria-hidden="true" class="typcn typcn-star"></span>
+                                </div>
+                                -->
+                            </div>
+                            
+                            <h4><strong>XL</strong> paket</h4>
+                            <div class="pricing-box-features">
+                                <ul>
+                                    <li>4 oblikovane strani </li>
+                                    <li>Letak, Email-ponudba, plakat</li>
+                                    <li>velikost do A2</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-box-sign-up">
+                                <a class="btn btn-link-1 scroll-link" href="#top-content">Naroči sedaj</a>
                             </div>
                         </div>
                     </div>
@@ -439,7 +560,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 call-to-action section-description wow fadeInLeftBig">
-                        <h2>Call to action</h2>
+                        <h2>Naroči sedaj</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                         <p>
                             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
@@ -449,7 +570,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
+                        <a class="btn btn-link-1 scroll-link" href="#top-content">Naroči design</a>
                     </div>
                 </div>
             </div>
@@ -460,50 +581,40 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 about-us section-description wow fadeIn">
-                        <h2>About us</h2>
+                        <h2>Primeri oblikovanja znotraj izbranih paketov</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4 about-us-box wow fadeInUp">
                         <div class="about-us-photo">
-                            <img src="/img/about/1.jpg" alt="" data-at2x="/img/about/1.jpg">
-                            <div class="about-us-role">Marketing</div>
+                            <img src="/img/about/primer_plakat.jpg" alt="" data-at2x="/img/about/primer_plakat.jpg">
+                           <!-- <div class="about-us-role">Plakat</div> -->
                         </div>
-                        <h3>John Doe</h3>
+                        <h3>Plakat</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                        <div class="about-us-social">
+                       <!-- <div class="about-us-social">
                             <a href="#"><span class="typcn typcn-social-facebook"></span></a>
                             <a href="#"><span class="typcn typcn-social-dribbble"></span></a>
                             <a href="#"><span class="typcn typcn-social-twitter"></span></a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-sm-4 about-us-box wow fadeInDown">
                         <div class="about-us-photo">
-                            <img src="/img/about/2.jpg" alt="" data-at2x="/img/about/2.jpg">
-                            <div class="about-us-role">Designer</div>
+                            <img src="/img/about/primer_email.jpg" alt="" data-at2x="/img/about/primer_email.jpg">
+                           <!--  <div class="about-us-role">E-mail ponudba</div>-->
                         </div>
-                        <h3>Tim Brown</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                        <div class="about-us-social">
-                            <a href="#"><span class="typcn typcn-social-facebook"></span></a>
-                            <a href="#"><span class="typcn typcn-social-dribbble"></span></a>
-                            <a href="#"><span class="typcn typcn-social-twitter"></span></a>
-                        </div>
+                        <h3>E-mail ponudba</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> 
                     </div>
                     <div class="col-sm-4 about-us-box wow fadeInUp">
                         <div class="about-us-photo">
-                            <img src="/img/about/3.jpg" alt="" data-at2x="/img/about/3.jpg">
-                            <div class="about-us-role">Developer</div>
+                            <img src="/img/about/primer_letak.jpg" alt="" data-at2x="/img/about/primer_letak.jpg">
+                           <!--  <div class="about-us-role">Letak</div> -->
                         </div>
-                        <h3>Sarah Red</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                        <div class="about-us-social">
-                            <a href="#"><span class="typcn typcn-social-facebook"></span></a>
-                            <a href="#"><span class="typcn typcn-social-dribbble"></span></a>
-                            <a href="#"><span class="typcn typcn-social-twitter"></span></a>
-                        </div>
-                    </div>
+                        <h3>Letak</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>              
+                   </div>
                 </div>
             </div>
         </div>
@@ -513,7 +624,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 testimonials section-description wow fadeIn">
-                        <h2>Testimonials</h2>
+                        <h2>O nas</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                     </div>
                 </div>
@@ -534,74 +645,11 @@
                                             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
                                             Lorem ipsum dolor sit amet, consectetur..."<br>
-                                            <a href="#">Lorem Ipsum, dolor.co.uk</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tab2">
-                                    <div class="testimonial-image">
-                                        <img src="/img/testimonials/2.jpg" alt="" data-at2x="/img/testimonials/2.jpg">
-                                        <div class="testimonial-icon">
-                                            <span aria-hidden="true" class="typcn typcn-pin"></span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p>
-                                            "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
-                                            ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                                            lobortis nisl ut aliquip ex ea commodo consequat..."<br>
-                                            <a href="#">Minim Veniam, nostrud.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tab3">
-                                    <div class="testimonial-image">
-                                        <img src="/img/testimonials/3.jpg" alt="" data-at2x="/img/testimonials/3.jpg">
-                                        <div class="testimonial-icon">
-                                            <span aria-hidden="true" class="typcn typcn-pin"></span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p>
-                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-                                            Lorem ipsum dolor sit amet, consectetur..."<br>
-                                            <a href="#">Lorem Ipsum, dolor.co.uk</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tab4">
-                                    <div class="testimonial-image">
-                                        <img src="/img/testimonials/4.jpg" alt="" data-at2x="/img/testimonials/4.jpg">
-                                        <div class="testimonial-icon">
-                                            <span aria-hidden="true" class="typcn typcn-pin"></span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p>
-                                            "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
-                                            ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                                            lobortis nisl ut aliquip ex ea commodo consequat..."<br>
-                                            <a href="#">Minim Veniam, nostrud.com</a>
+                                            <a href="#">Lorem Ipsum, dolor sit</a>
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active">
-                                    <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
-                                </li>
-                                <li role="presentation">
-                                    <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
-                                </li>
-                                <li role="presentation">
-                                    <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
-                                </li>
-                                <li role="presentation">
-                                    <a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -623,7 +671,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 footer-copyright">
-                        &copy; Marco Bootstrap Template by <a href="http://azmind.com">Azmind</a>.
+                         &copy; <a href="mailto:albin.jordan@gmail.com">Albin Jordan</a>
                     </div>
                 </div>
             </div>
