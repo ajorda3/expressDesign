@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/css/form-elements.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media-queries.css">
+     <link rel="stylesheet" href="/js/source/jquery.fancybox.css">
 
 
     <!-- Fonts -->
@@ -197,7 +198,7 @@
                     </div>
                     <div class="col-sm-4 features-box features-box-gray wow fadeInUp">
                         <div class="features-box-icon">
-                            <span aria-hidden="true" class="typcn typcn-cog-outline"></span>
+                            <span aria-hidden="true" class="typcn typcn-spiral"></span>
                         </div>
                         <h3>Odzivnost</h3>
                          <p>Naše storite vam nudijo zanesljivost, lojalnost in hitro odzivnost po designu.</p>
@@ -254,7 +255,7 @@
                     <div class="col-sm-7 more-features-box wow fadeInUp">
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon">
-                                <span aria-hidden="true" class="typcn typcn-attachment"></span>
+                                <span aria-hidden="true" class="typcn typcn-database"></span>
                             </div>
                             <h3>1. Baza podatkov</h3>
                             <div class="more-features-box-text-description">
@@ -264,7 +265,7 @@
                         </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon">
-                                <span aria-hidden="true" class="typcn typcn-user"></span>
+                                <span aria-hidden="true" class="typcn typcn-wi-fi"></span>
                             </div>
                             <h3>2. Naročilo prek spleta</h3>
                             <div class="more-features-box-text-description">
@@ -350,7 +351,7 @@
                     <div class="col-sm-7 more-features-box wow fadeInUp">
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon">
-                                <span aria-hidden="true" class="typcn typcn-attachment"></span>
+                                <span aria-hidden="true" class="typcn typcn-tick"></span>
                             </div>
                             <h3>Ugoden</h3>
                             <div class="more-features-box-text-description">
@@ -359,7 +360,7 @@
                         </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon">
-                                <span aria-hidden="true" class="typcn typcn-user"></span>
+                                <span aria-hidden="true" class="typcn typcn-user-add"></span>
                             </div>
                             <h3>Brez zadržkov</h3>
                             <div class="more-features-box-text-description">
@@ -368,7 +369,7 @@
                         </div>
                         <div class="more-features-box-text">
                             <div class="more-features-box-text-icon">
-                                <span aria-hidden="true" class="typcn typcn-user"></span>
+                                <span aria-hidden="true" class="typcn typcn-user-outline"></span>
                             </div>
                             <h3>Lasten oblikovalec</h3>
                             <div class="more-features-box-text-description">
@@ -396,7 +397,7 @@
                            
                             <p class="medium-paragraph">
                                Ker vemo, da v prvem mesecu še niste prepričani, kateri paket bi vam ustrezal, vam spremembo paketa v prvem mesecu podarimo!
-                               <strong>Cena spremembe paketa pa je v bodoče 20€!</strong> <small>(z že v ključenim ddvjem)</small>
+                               <strong>Cena spremembe paketa pa je v bodoče 20€!</strong> <small>(z že vključenim ddvjem)</small>
 
                         </div>
                     </div>
@@ -588,8 +589,10 @@
                 <div class="row">
                     <div class="col-sm-4 about-us-box wow fadeInUp">
                         <div class="about-us-photo">
+                        <a id="plakat_img" href="/img/about/primer_plakat.jpg" title="Plakat">
                             <img src="/img/about/primer_plakat.jpg" alt="" data-at2x="/img/about/primer_plakat.jpg">
-                           <!-- <div class="about-us-role">Plakat</div> -->
+</a>                    </a>
+                            <!-- <div class="about-us-role">Plakat</div> -->
                         </div>
                         <h3>Plakat</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -601,16 +604,18 @@
                     </div>
                     <div class="col-sm-4 about-us-box wow fadeInDown">
                         <div class="about-us-photo">
-                            <img src="/img/about/primer_email.jpg" alt="" data-at2x="/img/about/primer_email.jpg">
-                           <!--  <div class="about-us-role">E-mail ponudba</div>-->
+                            <a id="mail_img" href="/img/about/primer_email.jpg" title="Email ponudba">
+                                 <img src="/img/about/primer_email.jpg" alt="" data-at2x="/img/about/primer_mail.jpg">
+</a>                        </a>
                         </div>
                         <h3>E-mail ponudba</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p> 
                     </div>
                     <div class="col-sm-4 about-us-box wow fadeInUp">
                         <div class="about-us-photo">
-                            <img src="/img/about/primer_letak.jpg" alt="" data-at2x="/img/about/primer_letak.jpg">
-                           <!--  <div class="about-us-role">Letak</div> -->
+                             <a id="letak_img" href="/img/about/primer_letak.jpg" title="Letak">
+                                 <img src="/img/about/primer_letak.jpg" alt="" data-at2x="/img/about/primer_letak.jpg">
+</a>                        </a>
                         </div>
                         <h3>Letak</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>              
@@ -777,6 +782,7 @@
         <script src="/js/retina-1.1.0.min.js"></script>
         <script src="/js/jquery.magnific-popup.min.js"></script>
         <script src="/js/scripts.js"></script>
+         <script src="/js/source/jquery.fancybox.js"></script>
         
         <!--[if lt IE 10]>
             <script src="/js/placeholder.js"></script>

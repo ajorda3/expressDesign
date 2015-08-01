@@ -49,7 +49,33 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		$( '#' + $(this).data('modal-id') ).modal();
 	});
-	
+
+
+	/* Fancy box */
+	$("#plakat_img").fancybox({
+          helpers: {
+              title : {
+                  type : 'float'
+              }
+          }
+      });
+
+	$("#mail_img").fancybox({
+          helpers: {
+              title : {
+                  type : 'float'
+              }
+          }
+      });
+
+	$("#letak_img").fancybox({
+          helpers: {
+              title : {
+                  type : 'float'
+              }
+          }
+      });
+
 });
 
 
