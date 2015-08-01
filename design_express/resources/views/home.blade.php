@@ -41,7 +41,6 @@
         <div class="loader">
             <div class="loader-img"></div>
         </div>
-                
         <!-- Top content -->
         <div class="top-content">
             
@@ -193,14 +192,20 @@
                                                 <div class="panel-heading" role="tab" id="heading{{ $order->id }}">
                                                   <h4 class="panel-title">
                                                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ $order->id }}" aria-expanded="true" aria-controls="#collapse{{ $order->id }}">
-                                                      {{ $order->title }}
+                                                      {{ $order->title }} ( {{ $order->type }} )
                                                     </a>
                                                   </h4>
                                                 </div>
                                                 
                                                 <div id="collapse{{ $order->id }}" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                                                   <div class="panel-body">
-                                                   {{ $order->mainText }}
+                                                        <p><strong>Cilj tiskovine:</strong>{{ $order->goal }}</p>
+                                                        <p><strong>Ciljna skupina:</strong>{{ $order->group }}</p>
+                                                        <p><strong>Format:</strong>{{ $order->format }}</p>
+                                                        <p><strong>Naslov:</strong>{{ $order->title }}</p>
+                                                        <p><strong>Uvodno besedilo:</strong>{{ $order->intro }}</p>
+                                                        <p><strong>Glavno besedilo:</strong>{{ $order->mainText }}</p>
+                                                        <p><strong>Opombe:</strong>{{ $order->comment }}</p>
                                                    </div>
                                                 </div>
                                               </div>
