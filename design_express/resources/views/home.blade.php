@@ -86,7 +86,7 @@
                                     <div class="col-lg-6"><strong class="pull-left-md"> M </strong></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-6">Razpoložjiva naročila: </div>
+                                    <div class="col-lg-6">Razpoložljiva naročila: </div>
                                     <div class="col-lg-4"><strong class="pull-left-md">2 </strong></div>
                                 </div>
                             </div>
@@ -117,29 +117,30 @@
                                             </div>
                                         </div>
                                         <div class="form-bottom">
-                                            <form role="form" action="" method="post">
+                                            <form role="form" action="send/order" method="post">
+                                                {!! csrf_field() !!}
                                                 <div class="form-group">
                                                     <div class="radio">
                                                       <label>
-                                                        <input type="radio" id="form-order-type-letak" name="orderTypeRadio" value="form-order-type-letak" checked>
+                                                        <input type="radio" id="letak" name="orderTypeRadio" value="letak" checked>
                                                         Letak
                                                       </label>
                                                     </div>
                                                     <div class="radio">
                                                       <label>
-                                                        <input type="radio" id="form-order-type-plakat" name="orderTypeRadio" value="form-order-type-plakat">
+                                                        <input type="radio" id="fplakat" name="orderTypeRadio" value="plakat">
                                                         Plakat
                                                       </label>
                                                     </div>
                                                     <div class="radio">
                                                       <label>
-                                                        <input type="radio" id="form-order-type-mail" name="orderTypeRadio" value="form-order-type-mail">
+                                                        <input type="radio" id="mail" name="orderTypeRadio" value="mail">
                                                         E-mail ponudba
                                                       </label>
                                                     </div>
                                                     <div class="radio">
                                                       <label>
-                                                        <input type="radio" id="form-order-type-drugo" name="orderTypeRadio" value="form-order-type-drugo">
+                                                        <input type="radio" id="drugo" name="orderTypeRadio" value="drugo">
                                                         Drugo
                                                       </label>
                                                     </div>
@@ -181,38 +182,33 @@
                                 <div role="tabpanel" class="tab-pane" id="login_tab">
                                        <div class="form-top">
                                             <div class="form-top-left">
-                                                <h3>Sign up now</h3>
-                                                <p>Fill in the form below to get instant access:</p>
+                                                <h3>Zgodovina naročil</h3>
+                                                <p>S klikom na željen naslov, lahko pregledujete svoja dosedanja naročila:</p>
                                             </div>
                                             <div class="form-top-right">
                                                 <span aria-hidden="true" class="typcn typcn-pencil"></span>
                                             </div>
                                         </div>
                                         <div class="form-bottom">
-                                            <form role="form" action="" method="post">
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-first-name">First name</label>
-                                                    <input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
+                                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                              @foreach( $orders as $order )
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="heading{{ $order->id }}">
+                                                  <h4 class="panel-title">
+                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ $order->id }}" aria-expanded="true" aria-controls="#collapse{{ $order->id }}">
+                                                      {{ $order->title }}
+                                                    </a>
+                                                  </h4>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-last-name">Last name</label>
-                                                    <input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
+                                                
+                                                <div id="collapse{{ $order->id }}" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
+                                                  <div class="panel-body">
+                                                   {{ $order->mainText }}
+                                                   </div>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-email">Email</label>
-                                                    <input type="email" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="form-about-yourself">About yourself</label>
-                                                    <textarea name="form-about-yourself" placeholder="About yourself..." 
-                                                                class="form-about-yourself form-control" id="form-about-yourself"></textarea>
-                                                </div>
-                                                <button type="submit" class="btn">Sign me up!</button>
-                                                <div class="form-links">
-                                                    <a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> - 
-                                                    <a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
-                                                </div>
-                                            </form>
+                                              </div>
+                                              @endforeach
+                                            </div>
                                         </div>
                                 </div>
                             </div>

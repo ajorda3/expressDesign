@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Orders;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -26,7 +28,9 @@ class HomeController extends Controller
      */
     public function create()
     {
-        return view('home');
+        $id = \Auth::user()->id;
+        $orders = Orders::where('user_id', '=', $id)->get();
+        return view('home', ['orders' => $orders]);
     }
 
     /**

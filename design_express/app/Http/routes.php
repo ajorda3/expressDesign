@@ -25,3 +25,9 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 Route::get('/home', 'HomeController@create');
+Route::get('/orders', 'OrdersController@index');
+Route::get('/show', 'OrdersController@show');
+
+Route::post('send/order', 'OrdersController@store');
+
+
